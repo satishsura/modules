@@ -1,4 +1,4 @@
-class ntp::service inherits ntp{
+class ntptemplate::service inherits ntptemplate{
 service { "ntp" :
                    require => Package['ntp'],
                    ensure => running

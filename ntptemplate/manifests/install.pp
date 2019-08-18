@@ -1,4 +1,4 @@
-class ntp::install inherits ntp {
+class ntptemplate::install inherits ntptemplate {
 package { 'ntp':
 
     ensure => installed,

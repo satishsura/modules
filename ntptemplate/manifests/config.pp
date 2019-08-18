@@ -1,4 +1,4 @@
-class ntp::config inherits ntp {
+class ntptemplate::config inherits ntptemplate {
 
 file {"/etc/ntp.conf":
 ensure => file,

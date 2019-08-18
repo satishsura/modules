@@ -35,9 +35,9 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class ntp {
-include ntp::install
-include ntp::config
-include ntp::service
+class ntptemplate {
+include ntptemplate::install
+include ntptemplate::config
+include ntptemplate::service
 
 }
